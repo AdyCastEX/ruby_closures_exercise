@@ -49,7 +49,7 @@
 
     ```ruby
     result = Closures.filter([1,2,3]) do |item|
-    	item.odd?
+      item.odd?
     end
     result # Output: [1,3]
 
@@ -64,7 +64,7 @@
     ```ruby
     car = Car.new(color: "Red", manufacturer: "Honda") do |c|
       c.plate_number = "ABC 1234"
-    	c.manufacturer = "Toyota"
+      c.manufacturer = "Toyota"
     end
 
     car.color # Red
