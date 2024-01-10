@@ -35,7 +35,7 @@
 
     ```ruby
     result = Closures.map([1,2,3]) do |item|
-    	item * 2
+      item * 2
     end
     result # Output: [2,4,6]
 
