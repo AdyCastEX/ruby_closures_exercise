@@ -81,19 +81,19 @@ Create a class that uses this syntax
 ```ruby
 bootcamp = Bootcamp.new do
   topic "Inheritance" do
-	  description "All about inheritance"
-	  details do
-	    lecturer "Ady"
-	    date "2023-3-28"
-	  end
+    description "All about inheritance"
+    details do
+      lecturer "Ady"
+      date "2023-3-28"
+    end
   end
 
   topic "Closures" do
-	  description "Blocks, Procs and Lambdas"
-	  details do
-	    lecturer "Ady"
-	    date "2023-3-28"
-	  end
+    description "Blocks, Procs and Lambdas"
+    details do
+      lecturer "Ady"
+      date "2023-3-28"
+    end
   end
 end
 ```
