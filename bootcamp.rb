@@ -1,0 +1,2 @@
+class Bootcamp
+end
